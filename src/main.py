@@ -2,12 +2,12 @@ import sys
 from pyspark.sql import SparkSession
 import os
 
-if os.path.exists('jobs.zip'):
-    sys.path.insert(0, 'jobs.zip')
-if os.path.exists('libs.zip'):
-    sys.path.insert(0, "libs.zip")
+# if os.path.exists('jobs.zip'):
+#     sys.path.insert(0, 'jobs.zip')
+# if os.path.exists('libs.zip'):
+#     sys.path.insert(0, "libs.zip")
 
-from logger import Log4j
+from libs.logger import Log4j
 
 
 # --conf "-Dlog4j.configuration=file:log4j.properties -Dlogfile.name=hello-spark -Dspark.yarn.app.container.log.dir=app-logs"

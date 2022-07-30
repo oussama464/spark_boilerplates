@@ -1,4 +1,3 @@
-pysparkling
 findspark
 psutil
 wheel
