@@ -1,5 +1,5 @@
 # This is a boilerplate template for spark apps 
-
+# --------------------------------------------
 ```
 ├── Makefile
 ├── README.md
